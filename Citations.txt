@@ -1,0 +1,19 @@
+https://github.com/alicex2020/Chinese-Landscape-Painting-Dataset
+
+@misc{xue2020endtoend,
+      title={End-to-End Chinese Landscape Painting Creation Using Generative Adversarial Networks}, 
+      author={Alice Xue},
+      year={2020},
+      eprint={2011.05552},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
+https://www.kaggle.com/puneet6060/intel-image-classification
+size: 150x150
+
+Code:
+cd ~/Documents/Github/pytorch-CycleGAN-and-pix2pix
+
+
+python train.py --dataroot ./datasets/paintings --name paint_cyclegan --model cycle_gan --preprocess none --gpu_ids -1 --display_id 1 --num_threads 0
